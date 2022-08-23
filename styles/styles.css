@@ -1524,10 +1524,13 @@ body {
 }
 
 /*Uncomment below to disable modal-container*/
+.modal-container--open {
+  display: flex;
+}
 
-/* .modal-container-close {
+.modal-container--closed {
   display: none;
-} */
+}
 
 .modal {
   position: relative;
