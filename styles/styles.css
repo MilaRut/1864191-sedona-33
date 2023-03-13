@@ -1523,6 +1523,14 @@ body {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
+<<<<<<< HEAD
+=======
+/*Uncomment below to disable modal-container*/
+.modal-container--open {
+  display: flex;
+}
+
+>>>>>>> 53cdc466022ca1f7b1e26e17b0768e909fb1f1fe
 .modal-container--closed {
   display: none;
 }
