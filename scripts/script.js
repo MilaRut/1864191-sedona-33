@@ -13,3 +13,9 @@ document.addEventListener('keydown', function (e) {
     modalContainer.classList.toggle('modal-container--closed');
   }
 });
+
+document.addEventListener('click', function (e) {
+  if (e.target === modalContainer) {
+    modalContainer.classList.toggle('modal-container--closed');
+  }
+});
