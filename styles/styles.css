@@ -1523,11 +1523,6 @@ body {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-/*Uncomment below to disable modal-container*/
-.modal-container--open {
-  display: flex;
-}
-
 .modal-container--closed {
   display: none;
 }
